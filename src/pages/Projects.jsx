@@ -25,7 +25,7 @@ const Projects = () => {
         <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 mt-6">NFT & Web3 Projects</h2>
         {renderProjects(web3Projects)}
 
-        <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 mt-6">What I Do</h2>
+        <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 mt-6" id="services">What I Do</h2>
         {renderProjects(developerServices)}
       </section>
     </>
