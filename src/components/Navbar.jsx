@@ -10,6 +10,10 @@ const Navbar = () => {
         { name: 'Contact', href: '#contact' }
     ];
 
+    const closeMenu = () => {
+        setIsOpen(false);
+    };
+
     return (
         <nav className="bg-gray-900 text-gray-100 sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -63,7 +67,12 @@ const Navbar = () => {
             <div className={`${isOpen ? 'block' : 'hidden'} sm:hidden`} id="mobile-menu">
                 <div className="px-2 pt-2 pb-3 space-y-1">
                     {navigationLinks.map((link) => (
-                        <a key={link.name} href={link.href} className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                        <a
+                            key={link.name}
+                            href={link.href}
+                            className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                            onClick={closeMenu}
+                        >
                             {link.name}
                         </a>
                     ))}

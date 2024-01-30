@@ -1,4 +1,5 @@
 import React from 'react';
+import TypingEffect from '../components/TypingEffect';
 
 const Home = () => {
     return (
@@ -9,10 +10,12 @@ const Home = () => {
                         Hi, <span className="text-blue-500">My name is Nick</span> and I like building stuff
                     </h2>
                     <div className="max-w-md text-2xl mt-4 text-center sm:text-left text-gray-100">
-                        I'm a programmer based in the United States. I like building things with React, Node, and Javascript.
+                        <TypingEffect />
                     </div>
                     <div className="max-w-md text-2xl mt-4 text-center sm:text-left text-gray-100">
-                        Github | LinkedIn
+                        <span>
+                            <a href='https://github.com/nt5k' target='_blank' className="hover:underline">
+                                Github</a> | <a href='https://linkedin.com/in/nicholastysh' target='_blank' className="hover:underline">LinkedIn</a></span>
                     </div>
                 </article>
                 <div className="sm:w-1/2 flex justify-center items-center">

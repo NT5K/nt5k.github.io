@@ -1,5 +1,25 @@
 import React from 'react';
 
+const getYearsSinceOctober2019 = () => {
+    const startDate = new Date('2019-01-01'); // Starting date: October 1, 2019
+    const currentDate = new Date(); // Current date
+
+    const differenceInYears = currentDate.getFullYear() - startDate.getFullYear();
+    const monthDifference = currentDate.getMonth() - startDate.getMonth();
+
+    // Adjust the year difference if the current month is before October
+    if (monthDifference < 0 || (monthDifference === 0 && currentDate.getDate() < startDate.getDate())) {
+        return differenceInYears - 1;
+    } else {
+        return differenceInYears;
+    }
+}
+
+const experienceText = () => {
+    const years = getYearsSinceOctober2019();
+    return `over ${years} years of experience`;
+}
+
 const About = () => {
     return (
         <>
@@ -20,10 +40,10 @@ const About = () => {
                     {/* Text Content */}
                     <div className="flex-grow">
                         <h2 className="text-2xl font-bold">Nick Tysh</h2>
-                        <p className="text-gray-400 mt-2">Software Developer / Web Designer</p>
+                        <p className="text-gray-400 mt-2">Full-Stack Software & Web Developer</p>
                         <div className="mt-4 text-gray-300">
                             <p>
-                                Highly skilled and motivated full stack web developer with 5+ years of experience building and maintaining web applications. Seeking an opportunity to leverage technical skills and creativity to deliver high-quality software solutions.
+                                Dynamic and results-oriented Full-Stack Developer with {experienceText()} in crafting and deploying innovative software & web applications. Proficient in a broad spectrum of programming languages and tools, with a strong emphasis on efficient, scalable solutions. Demonstrated expertise in project management and driving process enhancements, contributing to the continual improvement of development practices and team productivity.
                             </p>
                         </div>
                     </div>
@@ -34,4 +54,3 @@ const About = () => {
 };
 
 export default About;
-
