@@ -70,7 +70,7 @@ export const schoolProjects = [
   {
     name: 'Parkour',
     desc: 'Developed during a coding bootcamp, this app connects drivers in need of parking with available driveways. A practical solution for urban areas, it offers a new way to utilize private parking spaces efficiently.',
-    img: "./images/projects/parkour.png",
+    img: "./images/projects/parkour2.png",
     link: '#',
     github: 'https://github.com/NT5K/parkp2p'
   },
