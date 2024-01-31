@@ -31,7 +31,7 @@ export const techStack = [
 export const recentProjects = [
   {
     name: 'The Genre Challenge',
-    desc: 'A trivia game where players guess two movies within a genre, aiming for their combined Rotten IMDb scores to total as close to 10/10 as possible without going over. It’s a thrilling test of cinematic knowledge with a strategic twist!',
+    desc: 'A trivia game where players guess two movies within a genre, aiming for their combined IMDb scores to total as close to 10/10 as possible without going over. It’s a thrilling test of cinematic knowledge with a strategic twist!',
     img: "./images/projects/genre_challenge.png",
     link: 'https://genre-challenge-demo1.vercel.app/',
     github: 'https://github.com/NT5K/genre-challenge'
@@ -104,21 +104,21 @@ export const developerServices = [
   {
     name: 'Web Application Development',
     desc: 'Expertise in creating dynamic and responsive web applications tailored to client needs. Specializing in both front-end and back-end development, ensuring a seamless user experience and robust functionality.',
-    img: "./images/services/web-developer2.png",
+    img: "./images/services/service-web.png",
     link: '#',
     github: '#'
   },
   {
     name: 'UI/UX Design',
     desc: 'Expert in crafting intuitive and engaging user interfaces. Emphasizing user experience, I design interfaces that are not only visually appealing but also easy to navigate and user-friendly.',
-    img: "./images/services/ui-ux2.png",
+    img: "./images/services/service-ui-ux.png",
     link: '#',
     github: '#'
   },
   {
     name: 'Web3 Development',
     desc: 'Expert in Web3 development, focusing on DApps and smart contracts using blockchain technologies like Ethereum and Solidity. Delivers secure, transparent, and efficient decentralized solutions.',
-    img: "./images/services/web3.png",
+    img: "./images/services/service-web3.png",
     link: '#',
     github: '#'
 }
