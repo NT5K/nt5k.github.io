@@ -34,21 +34,24 @@ export const recentProjects = [
     desc: 'A trivia game where players guess two movies within a genre, aiming for their combined IMDb scores to total as close to 10/10 as possible without going over. It’s a thrilling test of cinematic knowledge with a strategic twist!',
     img: "./images/projects/genre_challenge.png",
     link: 'https://genre-challenge-demo1.vercel.app/',
-    github: 'https://github.com/NT5K/genre-challenge'
+    github: 'https://github.com/NT5K/genre-challenge',
+    badges: ['JavaScript', 'Bootstrap', 'React', 'Express', 'Node']
   },
   {
     name: 'CourseHub_',
     desc: 'A comprehensive course management platform for educators. It allows for the creation and management of registerable courses, providing a seamless interface for both teachers to add courses and students to enroll.',
     img: "./images/projects/coursehub2.png",
     link: 'https://coursehub-demo1.000webhostapp.com/',
-    github: 'https://github.com/NT5K/coursehub'
+    github: 'https://github.com/NT5K/coursehub',
+    badges: ['PHP', 'MySQL', 'Bootstrap']
   },
   {
-    name: 'Adventure Game',
+    name: 'Adventure Game (WIP)',
     desc: 'A groundbreaking choose-your-own-adventure game that leverages GPT-4 AI technology to create a unique and dynamic gaming experience. Every decision shapes an entirely AI-generated narrative, offering endless possibilities.',
     img: "./images/projects/adventuregaime1.jpg",
-    link: 'link',
-    github: 'github'
+    link: '#',
+    github: '#',
+    badges: ['OpenAI', 'JavaScript', 'Bootstrap', 'Express', 'Node']
   },
 ]
 
@@ -58,21 +61,24 @@ export const schoolProjects = [
     desc: 'An award-winning app from a college design/build competition. MyLittleLibrary offers a digital solution for book lovers to manage and share their personal libraries, fostering a community of readers and book enthusiasts.',
     img: "./images/projects/nicklittlefreelibrary.png",
     link: 'https://nicholastysh.github.io/mylittlelibrary/',
-    github: 'https://github.com/NicholasTysh/mylittlelibrary'
+    github: 'https://github.com/NicholasTysh/mylittlelibrary',
+    badges: ['Javascript', 'jQuery', 'Bootstrap']
   },
   {
     name: 'Dungeon Crawler',
     desc: 'A highly acclaimed project from my coding bootcamp, where I led the design and development of a choose-your-own-adventure game. This immersive game showcases my team’s creativity and skill in interactive storytelling.',
     img: "./images/projects/dungeoncrawl.png",
     link: 'https://dungeon-crawler-jv8m.onrender.com/',
-    github: 'https://github.com/NT5K/Dungeon_Crawl'
+    github: 'https://github.com/NT5K/Dungeon_Crawl',
+    badges: ['Javascript', 'jQuery', 'Bootstrap', 'Node', 'Express', 'MySQL']
   },
   {
     name: 'Parkour',
     desc: 'Developed during a coding bootcamp, this app connects drivers in need of parking with available driveways. A practical solution for urban areas, it offers a new way to utilize private parking spaces efficiently.',
     img: "./images/projects/parkour2.png",
     link: '#',
-    github: 'https://github.com/NT5K/parkp2p'
+    github: 'https://github.com/NT5K/parkp2p',
+    badges: ['Javascript', 'jQuery', 'Bootstrap', 'Node', 'Express', 'MySQL']
   },
 ]
 
@@ -82,21 +88,53 @@ export const web3Projects = [
     desc: 'An innovative NFT pet game inspired by Tamagotchi, where the pet lives on the blockchain. Users interact with their NFT pet, ensuring its well-being. Proper care of the pet rewards the user with ERC20 tokens, utilized within the games ecosystem.',
     img: "./images/projects/gotchi.png",
     link: '#',
-    github: 'https://github.com/NT5K/BlockchainGotchi'
+    github: 'https://github.com/NT5K/BlockchainGotchi',
+    badges: ['JavaScript', 'Solidity', 'ERC-20', 'ERC-721']
   },
   {
     name: 'NFT Marketplace',
     desc: 'This project combines a token farm and an NFT marketplace. Users stake liquidity tokens to receive a new type of token. These tokens can then be used to purchase NFTs within the marketplace, creating a dynamic and interactive trading experience.',
     img: "./images/projects/nft_marketplace.png",
     link: '#',
-    github: 'https://github.com/NT5K/PolyFrog'
+    github: 'https://github.com/NT5K/PolyFrog',
+    badges: ['JavaScript', 'Solidity', 'ERC-20', 'ERC-721']
   },
   {
     name: 'NFT Games',
     desc: 'A comprehensive platform featuring decentralized games such as "Place" and "NFT Battle". It includes a complete NFT collection and an NFT minter, offering a diverse range of interactive and engaging blockchain-based gaming experiences.',
     img: "./images/projects/place.png",
     link: '#',
-    github: 'https://github.com/NT5K/punks'
+    github: 'https://github.com/NT5K/punks',
+    badges: ['JavaScript', 'Solidity', 'ERC-20', 'ERC-721']
+
+  },
+]
+
+export const freelanceProjects = [
+  {
+    name: 'shaffervoicestudio.com',
+    desc: 'Designed to extend a voice studio’s reach, this website serves as a digital front for the business, enabling potential students to make contact easily. The site significantly boosted the client’s student enrollment.',
+    img: "./images/projects/shaffervoicestudio.png",
+    link: 'https://www.shaffervoicestudio.com',
+    github: 'https://github.com/NT5K/BlockchainGotchi',
+    badges: ['Javascript', 'jQuery', 'Bootstrap']
+  },
+  {
+    name: 'dantakacs.com',
+    desc: 'A professional portfolio website created to showcase the client’s expertise as a director/writer. It highlights their body of work and achievements in the field, offering a comprehensive look at their career.',
+    img: "./images/projects/dantakacs.png",
+    link: 'https://www.dantakacs.com',
+    github: 'https://github.com/NT5K/dan',
+    badges: ['Javascript', 'jQuery', 'Bootstrap']
+  },
+  {
+    name: 'tysh.dev',
+    desc: 'My personal portfolio application, showcasing my projects and skills. It utilizes modern web technologies to present my work effectively to potential clients or employers.',
+    img: "./images/projects/tyshdev.png",
+    link: 'https://www.tysh.dev',
+    github: 'https://github.com/NT5K/tysh-dev',
+    badges: ['Javascript', 'React', 'Tailwind', 'Vite']
+
   },
 ]
 
@@ -106,20 +144,23 @@ export const developerServices = [
     desc: 'Expertise in creating dynamic and responsive web applications tailored to client needs. Specializing in both front-end and back-end development, ensuring a seamless user experience and robust functionality.',
     img: "./images/services/service-web.png",
     link: '#',
-    github: '#'
+    github: '#',
+    badges: []
   },
   {
     name: 'UI/UX Design',
     desc: 'Expert in crafting intuitive and engaging user interfaces. Emphasizing user experience, I design interfaces that are not only visually appealing but also easy to navigate and user-friendly.',
     img: "./images/services/service-ui-ux.png",
     link: '#',
-    github: '#'
+    github: '#',
+    badges: []
   },
   {
     name: 'Web3 Development',
     desc: 'Expert in Web3 development, focusing on DApps and smart contracts using blockchain technologies like Ethereum and Solidity. Delivers secure, transparent, and efficient decentralized solutions.',
     img: "./images/services/service-web3.png",
     link: '#',
-    github: '#'
-}
+    github: '#',
+    badges: []
+  }
 ]

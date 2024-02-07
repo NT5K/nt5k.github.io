@@ -1,7 +1,7 @@
 // Projects.js
 import React from "react";
 import { motion } from "framer-motion";
-import { recentProjects, schoolProjects, web3Projects, developerServices } from "../assets/data/constants";
+import { recentProjects, schoolProjects, web3Projects, developerServices, freelanceProjects } from "../assets/data/constants";
 import ProjectCard from "./../components/ProjectCard";
 
 const Projects = () => {
@@ -24,6 +24,9 @@ const Projects = () => {
 
         <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 mt-6">NFT & Web3 Projects</h2>
         {renderProjects(web3Projects)}
+
+        <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 mt-6">Freelance Projects</h2>
+        {renderProjects(freelanceProjects)}
 
         <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 mt-6" id="services">What I Do</h2>
         {renderProjects(developerServices)}
