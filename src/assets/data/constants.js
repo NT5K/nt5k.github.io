@@ -116,7 +116,7 @@ export const freelanceProjects = [
     desc: 'Designed to extend a voice studio’s reach, this website serves as a digital front for the business, enabling potential students to make contact easily. The site significantly boosted the client’s student enrollment.',
     img: "./images/projects/shaffervoicestudio.png",
     link: 'https://www.shaffervoicestudio.com',
-    github: 'https://github.com/NT5K/BlockchainGotchi',
+    github: 'https://github.com/NT5K/shaffervoicestudio',
     badges: ['Javascript', 'jQuery', 'Bootstrap']
   },
   {
