@@ -7,7 +7,7 @@ const Home = () => {
             <section id="home" className="h-screen flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 bg-grey-900 shadow-md rounded">
                 <article className="sm:w-1/2 p-4">
                     <h2 className="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-gray-100">
-                        Hi, <span className="text-blue-500">My name is Nick</span> and I like building stuff
+                        Hi, <span className="text-blue-500">my name is Nick</span> and I like building stuff
                     </h2>
                     <div className="max-w-md text-2xl mt-4 text-center sm:text-left text-gray-100">
                         <TypingEffect />
