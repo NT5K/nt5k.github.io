@@ -30,7 +30,7 @@ export const techStack = [
 
 export const recentProjects = [
   {
-    name: 'The Genre Challenge',
+    name: 'The Genre Challenge (WIP)',
     desc: 'A trivia game where players guess two movies within a genre, aiming for their combined IMDb scores to total as close to 10/10 as possible without going over. It’s a thrilling test of cinematic knowledge with a strategic twist!',
     img: "./images/projects/genre_challenge.png",
     link: 'https://genre-challenge-demo1.vercel.app/',
