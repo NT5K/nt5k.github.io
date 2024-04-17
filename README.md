@@ -1,1 +1,1 @@
-[My Website](https:tysh.dev)
+[My Website](https://www.tysh.dev)
